@@ -21,6 +21,12 @@ Built for my own workflow. Runs locally on Windows, sends toast notifications, a
 
 ---
 
+## Preview
+
+![SocialMonitor Dashboard](./print-screen-system.png)
+
+---
+
 ## Stack
 
 | Layer | Tech |
