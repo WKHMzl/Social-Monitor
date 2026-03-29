@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(source venv/Scripts/activate)",
+      "Bash(python -c \"import fastapi, praw, openai; print\\(''deps OK''\\)\")",
+      "Read(//tmp/**)"
+    ]
+  }
+}

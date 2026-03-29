@@ -1,0 +1,28 @@
+# Environment
+backend/.env
+.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Database (local data, not versioned)
+backend/*.db
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

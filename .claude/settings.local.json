@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"$WshShell = New-Object -comObject WScript.Shell; $Shortcut = $WshShell.CreateShortcut\\(''C:\\\\Users\\\\margu\\\\Desktop\\\\Reddit Monitor.lnk''\\); $Shortcut.TargetPath = ''d:\\\\Dev\\\\SocialMonitor\\\\start.bat''; $Shortcut.WorkingDirectory = ''d:\\\\Dev\\\\SocialMonitor''; $Shortcut.IconLocation = ''C:\\\\Windows\\\\System32\\\\shell32.dll,21''; $Shortcut.Save\\(\\)\")",
+      "Bash(curl -s \"https://hn.algolia.com/api/v1/search?query=Ask+HN%3A+Freelancer%3F+Seeking+Freelancer%3F+2026&tags=ask_hn&hitsPerPage=5\")",
+      "Bash(curl -s \"https://hn.algolia.com/api/v1/search_by_date?tags=comment,story_46857488&hitsPerPage=5\")",
+      "Bash(python -c \":*)",
+      "Bash(curl -s \"https://hn.algolia.com/api/v1/search_by_date?tags=comment,story_46857488&hitsPerPage=100\")",
+      "Bash(curl -s \"https://hn.algolia.com/api/v1/search?query=Ask+HN%3A+Who+is+Hiring%3F&tags=ask_hn&hitsPerPage=2\")",
+      "Bash(venv/Scripts/python.exe -c \":*)",
+      "Bash(curl -s http://localhost:8000/)"
+    ],
+    "additionalDirectories": [
+      "d:\\Dev\\SocialMonitor\\frontend\\app"
+    ]
+  }
+}
